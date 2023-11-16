@@ -17,5 +17,17 @@ public class Main {
         }
         System.out.println("sum of digits is: " + sum_digits);
 
+        // Exercise 2 - print 1234 , 234, 34, 4
+        //Scanner scanner = new Scanner(System.in);
+        System.out.println("please enter positive number:");
+        int n = scanner.nextInt();
+        for (int i=0;i <n ;i++){
+            for (int j=i; j<n-1 ; j++){
+                System.out.print(j+1+",");
+            }
+            System.out.println(n);
+        }
+
+
     }
 }
